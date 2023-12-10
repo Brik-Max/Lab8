@@ -1,4 +1,4 @@
-package code;
+package code.listeners;
 import code.model.Matrix;
 
 import javax.swing.JTextArea;

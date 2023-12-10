@@ -1,6 +1,6 @@
-package code;
+package code.generators;
 
-public class DiagonalGen implements IGenerator{
+public class DiagonalGen implements IGenerator {
     @Override
     public String getName() {
         return "Дианональная";

@@ -1,6 +1,6 @@
-package code;
+package code.generators;
 
-public class IdentityGen  implements IGenerator{
+public class IdentityGen  implements IGenerator {
     @Override
     public String getName() {
         return "Единичная";

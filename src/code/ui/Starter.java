@@ -1,5 +1,8 @@
-package code;
+package code.ui;
 
+import code.listeners.DisplayMatrixListener;
+import code.listeners.IMatrixListener;
+import code.model.MatrixData;
 import code.generators.IGenerator;
 import code.generators.ZeroGen;
 import code.model.Matrix;

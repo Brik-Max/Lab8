@@ -1,6 +1,6 @@
-package code;
+package code.generators;
 
-public class ZeroGen implements IGenerator{
+public class ZeroGen implements IGenerator {
     @Override
     public String getName() {
         return "Нулевая";

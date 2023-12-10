@@ -1,10 +1,9 @@
-package code;
+package code.listeners;
 import code.model.Matrix;
 
 import javax.swing.JTextArea;
 
-public abstract class AbstractTextMatrixListener extends JTextArea
-        implements IMatrixListener{
+public abstract class AbstractTextMatrixListener extends JTextArea implements IMatrixListener{
     @Override
     final public void matrixUpdated(Matrix matrix) {
         initialization(matrix);
@@ -15,9 +14,7 @@ public abstract class AbstractTextMatrixListener extends JTextArea
             }
         }
         finalization(matrix);
-
     }
-
 
     protected abstract void initialization(Matrix matrix);
     protected abstract void nextStep(Matrix matrix,int i, int j);

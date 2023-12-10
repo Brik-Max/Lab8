@@ -1,4 +1,4 @@
-package code;
+package code.generators;
 
 import code.generators.IGenerator;
 

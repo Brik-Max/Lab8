@@ -1,5 +1,6 @@
-package code;
+package code.model;
 
+import code.listeners.IMatrixListener;
 import code.generators.IGenerator;
 
 import java.util.ArrayList;

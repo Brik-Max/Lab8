@@ -1,6 +1,6 @@
-package code;
+package code.generators;
 
-public class TriangleGen implements IGenerator{
+public class TriangleGen implements IGenerator {
     @Override
     public String getName() {
         return "Треугольная";

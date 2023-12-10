@@ -1,4 +1,4 @@
-package code;
+package code.model;
 
 import code.generators.*;
 import code.listeners.*;
